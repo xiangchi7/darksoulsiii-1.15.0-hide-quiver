@@ -31,14 +31,6 @@ Originals are backed up as `parts\<name>.pre-hidequiver`.
 Run `restore.cmd`. Files with a backup are restored and the backup deleted, files that were pure additions are
 removed, so `parts` ends up exactly as it was before install.
 
-## Things to know first
-
-- The arrow nocked on the bowstring and arrows in flight are the same models as the arrows on your back, so
-  they disappear too. There is no way to separate them at the model layer; keeping the on-string arrow needs a
-  runtime hook or a character dummy edit.
-- NPC archers use the same models, so their quivers go away as well. Cosmetic only in single player.
-- Restore the original files before going online.
-
 ## Credits and copyright
 
 The `.dcx` files in `files` are modified FromSoftware game assets (© FromSoftware / Bandai Namco). They are
