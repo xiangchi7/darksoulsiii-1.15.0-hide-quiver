@@ -39,13 +39,7 @@ removed, so `parts` ends up exactly as it was before install.
 - NPC archers use the same models, so their quivers go away as well. Cosmetic only in single player.
 - Restore the original files before going online.
 
-## Other files
-
-- `tools/flvprobe` — the small tool written for this mod: lists meshes/bones of a `partsbnd`, renders contact
-  sheets, shrinks models by id, hides a single mesh by material name. Needs .NET 8+ and `SoulsFormats.dll`.
-- `docs/technical-notes.md` — how the part ids were identified, including the wrong guesses.
-
 ## Credits and copyright
 
 The `.dcx` files in `files` are modified FromSoftware game assets (© FromSoftware / Bandai Namco). They are
-here for single-player modding and tinkering, not for commercial use. Scripts and tool sources: MIT.
+here for single-player modding and tinkering, not for commercial use. Scripts: MIT.
