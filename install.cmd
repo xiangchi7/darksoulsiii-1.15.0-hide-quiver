@@ -2,6 +2,11 @@
 setlocal enabledelayedexpansion
 rem HideQuiver installer - backs up the originals as *.pre-hidequiver, then drops the patched models in.
 set "SRC=%~dp0files"
+if not exist "%SRC%\" (
+  echo [x] files\ folder not found - this looks like the git repository, not the release package.
+  echo     Download HideQuiver-1.0.zip from the Releases page, extract it, and run install.cmd from there.
+  exit /b 1
+)
 set "GAME=%~1"
 if "%GAME%"=="" set "GAME=D:\steam\steamapps\common\DARK SOULS III\Game"
 if not exist "%GAME%\parts" (
