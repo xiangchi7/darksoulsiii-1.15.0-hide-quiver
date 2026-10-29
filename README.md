@@ -4,9 +4,6 @@ Dark Souls III **1.15.0**
 
 **[中文](#中文) · [English](#english)**
 
-> 模型文件在 **Releases** 里（`HideQuiver-1.0.zip`），仓库只放说明和安装脚本。
-> The model files live in **Releases** (`HideQuiver-1.0.zip`); the repository holds the description and the scripts only.
-
 ## 中文
 
 装弓或弩时，角色身上不再出现箭袋、弩矢盒或插在里面的箭。弓、弩的属性、伤害、精力消耗、重量与存档都不受影响。
@@ -25,7 +22,7 @@ Dark Souls III **1.15.0**
 
 ### 安装
 
-1. 到 [Releases](../../releases/latest) 下载 `HideQuiver-1.0.zip` 并解压。
+1. 下载或 clone 本仓库，`files\` 文件夹里就是全部模型。
 2. 运行 `install.cmd`（默认目标 `D:\steam\steamapps\common\DARK SOULS III\Game`）；路径不同就传进去：`install.cmd "X:\...\DARK SOULS III\Game"`。
 3. 重启游戏 —— `parts` 模型只在进程启动时读取。
 
@@ -59,7 +56,7 @@ files). No DLL, no param archive edits, no Mod Engine needed.
 
 ### Install
 
-1. Download `HideQuiver-1.0.zip` from [Releases](../../releases/latest) and extract it.
+1. Download or clone this repository — the `files\` folder holds every model.
 2. Run `install.cmd` (defaults to `D:\steam\steamapps\common\DARK SOULS III\Game`); different path: `install.cmd "X:\...\DARK SOULS III\Game"`.
 3. Restart the game — `parts` models are only read at process start.
 
@@ -72,5 +69,5 @@ removed, so `parts` ends up exactly as it was before install.
 
 ### Credits and copyright
 
-The `.dcx` files in the release zip are modified FromSoftware game assets (© FromSoftware / Bandai Namco). They are
+The `.dcx` files in `files` are modified FromSoftware game assets (© FromSoftware / Bandai Namco). They are
 for single-player modding and tinkering, not for commercial use. Scripts: MIT.

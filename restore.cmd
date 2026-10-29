@@ -1,11 +1,6 @@
 @echo off
 setlocal enabledelayedexpansion
 set "SRC=%~dp0files"
-if not exist "%SRC%\" (
-  echo [x] files\ folder not found - this looks like the git repository, not the release package.
-  echo     Download HideQuiver-1.0.zip from the Releases page and run restore.cmd from the extracted folder.
-  exit /b 1
-)
 set "GAME=%~1"
 if "%GAME%"=="" set "GAME=D:\steam\steamapps\common\DARK SOULS III\Game"
 set /a n=0

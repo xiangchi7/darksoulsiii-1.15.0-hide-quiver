@@ -1,3 +1,2 @@
-# model payload ships in the Release zip, not in git
-files/
+# packaged zip (not needed in git)
 *.zip
